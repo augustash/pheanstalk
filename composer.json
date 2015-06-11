@@ -1,9 +1,9 @@
 {
-    "name": "pda/pheanstalk",
+    "name": "augustash/pheanstalk",
     "type": "library",
     "description": "PHP client for beanstalkd queue",
     "keywords": ["beanstalkd"],
-    "homepage": "https://github.com/pda/pheanstalk",
+    "homepage": "https://github.com/augustash/pheanstalk",
     "license": "MIT",
     "authors": [
         {
@@ -28,5 +28,9 @@
         "branch-alias": {
             "dev-master": "3.0-dev"
         }
+    },
+    "type": "magento-module",
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
     }
 }
